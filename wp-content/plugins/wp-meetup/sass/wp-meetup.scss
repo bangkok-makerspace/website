@@ -1,0 +1,353 @@
+.clear {
+	clear: both;
+	float: none;
+}
+.wpm-options-one-third {
+	width: 28%;
+	float: left;
+	padding: 5px;
+}
+
+.wpm_color_options {
+}
+
+.wpm-color-picker {
+	@extend .clear;
+	width: 200px;
+	padding: 5px;
+	label {
+		float: left;
+	}
+	input {
+		float: right;
+	}
+}
+
+.wpm-logos {
+	text-align:center;
+}
+.wpm-calendar-legend {
+	.wpm-legend-item {
+		width: 25%;
+		float: left;
+		text-align: center;
+		margin: 5px;
+		border-radius: 3px;
+	}
+}
+
+.credit-line {
+	font-size: 8px; 
+	font-size: 0.5714rem;
+	text-transform: capitalize;
+
+}
+
+.wp-meetup-calendar {
+	.calendar-month {
+		tr {
+			//
+		}
+		td{
+			width: 12%;
+			border-top: none;
+			border-bottom: 1px solid;
+			vertical-align: top;
+		}
+		.wpm-header-label {
+
+		}
+		.calendar-week {
+			.wpm-day {
+				position: relative;
+				//top: 10px;
+				.widget-calendar-entry{
+					position:absolute;
+					//top: 0;
+				}
+				&.wpm-no-event {
+					//
+				}
+				&.wpm-has-event {
+					//
+				}
+				.day-of-month {
+					//
+				}
+				.wpm-date {
+					position: relative;
+					//top:10px;
+					.wpm-number-display {
+						position:relative;
+						//top: 0px;
+						//float: left;
+					}
+					.wpm-event-list{
+						//float: left;
+						margin: 0;
+						.wpm-single {
+							border-radius: 5px;
+						}
+					}
+				}
+				.wpm-has-event-and-meeting{
+					
+				}
+				.wpm-has-meeting{
+					a{
+						
+					}
+
+				}
+			}
+		}
+	}
+}
+
+/* .wpm-date .wpm-event-list.wpm-collapsed { display: none; }
+.wpm-date .wpm-event-list.wpm-expanded { display: inherit; }
+.wpm-date {
+	.wpm-event-list { 
+		padding:5px;
+		margin:0px 0px 5px 0px;
+		z-index: 1000;
+		a:hover{
+			font-size:14px;
+		}
+		a{
+			.wpm-single{
+				font-size: 10px;
+				padding:10px;
+				margin: 5px 0px 3px;
+				border-radius: 10px;
+			}
+			.hover{
+				border-radius: 100% !important;
+			}
+		}
+	}
+} */
+
+.credit-line p{ 
+	text-align: right;
+}
+.wp-meetup-calendar{
+	.calendar-week{
+		.wp-meetup-table-data{
+			a {
+				color: #123123;
+			}
+		}
+	}
+}
+
+.clear {
+	clear: both;
+	float: none;
+}
+
+.wp-meetup-calendar .calendar-week .wpm-current-day-date { 
+	//border: 2px solid #ad3d3d; 
+	//margin: 5px;
+}
+
+.wpm-event-list {
+	margin: auto;
+	.wpm-single {
+		margin: 1px;
+		padding: 5px 8px;
+	}
+}
+
+// Post Content
+
+.meetup-backlink {
+	background-color: #cdcdcd;
+	width: 300px;
+	border-radius: 5px;
+	margin: 5px;
+	//padding: 5%;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	//text-align: center;
+	float: left;
+	div {
+		//text-align: center;
+		//float: left;
+		width: 90%;
+		padding: 15px;
+		//margin: auto;
+	}
+	h3 {
+		margin: 12px 0;
+	}
+	p {
+		margin: auto 0;
+	}
+	.button-wrapper {
+		text-align: center;
+		margin: auto;
+		//width: 100%;
+		.button {
+			text-align: center;
+			width: 80%;
+			border-radius: 5px;
+			background-color: #c71f24;
+			color: white;
+			padding: 8px 12px;
+			text-decoration: none;
+			text-transform: capitalize;
+			&:hover {
+				background-color: darken(#c71f24, 10%);
+			}
+		}
+		/* .credit-line {
+			width: 100%;
+			p {
+				text-align: center;
+				//width: 100%;
+				margin-top: 20px;
+			}
+		} */
+	}
+	.meetup-backlink-venue {
+		.meetup-backlink-map{
+			width: 100%;
+			a {
+				width: 100%;
+			}
+		}
+
+	}
+}
+.entry-content {
+	.credit-line {
+		text-align: right;
+	}
+}
+
+// Settings Pages
+
+.wp-meetup-options-page { 
+	.one {
+		width: 100%;
+		@extend .clear;
+	}
+	.one-half {
+		width: 48%;
+		float: left;
+		padding: 5px;
+	}
+
+	.one-third {
+		width: 32%;
+		float: left;
+		padding: 5px;
+		}
+
+	.two-thirds {
+		width: 65%;
+		float: left;
+		padding: 5px;
+	}
+
+	.clear {
+		clear: both;
+		float: none;
+	}
+	.logo-wrap{
+		a {
+			float: left;
+			margin: 5px;
+		}
+		h3 {
+			float: left;
+			margin: 5px;
+		}
+	}
+
+	.meetup-options {
+		padding: 5px;
+		.limited-width {
+			max-width: 100px;
+		}
+	}
+}
+.developer-options {
+	background-color: rgba(255,255,255,0.3); 
+	padding: 20px; 
+	border: solid 1px rgb(200,200,200); 
+	border-radius: 10px;
+}
+
+
+
+
+
+// Widgets
+
+
+.meetup-event-list-month{
+	border-bottom: 2px solid black;
+	margin-bottom: 3px;
+	h3 {
+		margin: 0px;
+	}
+}
+.meetup-widget-event-list {
+	.wpm-date-display {
+		width: 20%;
+		text-align: center;
+		border-radius: 3px;
+		display: inline;
+		margin: 5px auto;
+		padding: 2px;
+		float: left;
+
+	}
+	.widget-meetup-event-list-day {
+		a{
+
+			//margin: 1px;
+			.wpm-single{
+				width:70%;
+				margin: 5px;
+				padding: 3px auto;
+				text-transform: capitalize;
+				float: left;
+			}
+		}
+	}
+}
+	
+
+.widget-meetup-event-list-day {
+	margin-bottom: 8px;
+	.widget-month-display {
+		display: inline;
+	}
+	.wpm-number-display {
+		display: inline;
+		&:afer {
+			content: " ";
+		}
+
+	}
+	.clear {
+		float: none;
+		clear: both;
+	}
+}
+
+.widget-area {
+	.widget {
+		.credit-line {
+			p {
+				font-size: 8px; 
+				font-size: 0.5714rem;
+				text-transform: capitalize;
+			}
+		}
+	}
+}
+
