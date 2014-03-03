@@ -1,0 +1,4 @@
+/* Hide Color Scheme option on WordPress.com */
+#customize-control-writr_color_scheme {
+	display: none;
+}
